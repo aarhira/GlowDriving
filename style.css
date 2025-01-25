@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +16,7 @@ nav a {
 }
 .hero {
   background: #ffda79;
-  padding: 50px;
+  padding: 3rem;
   text-align: center;
 }
 .hero-button {
@@ -62,4 +63,16 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .hero {
+    padding: 2rem;
+    text-align: left;
+  }
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
 }
