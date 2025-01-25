@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glow Driving – Contact</title>
+  <!-- Favicon for most browsers -->
+  <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+  <!-- Apple Touch Icon for iOS devices -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Glow Driving</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Book a Lesson</h2>
+    <form action="https://formspree.io/f/xpwqwlzr" method="POST">
+      <input type="hidden" name="_subject" value="New message from Glow Driving!">
+
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" required>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required>
+
+      <label for="phone">Phone</label>
+      <input id="phone" type="tel" name="phone" required>
+
+      <label for="dob">Date of Birth</label>
+      <input id="dob" type="date" name="dob" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

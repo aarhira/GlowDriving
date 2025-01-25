@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #2c2c54;
+  padding: 10px;
+  color: #fff;
+}
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  background: #ffda79;
+  padding: 50px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+label, input, textarea, button {
+  margin-bottom: 10px;
+}
